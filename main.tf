@@ -35,7 +35,3 @@ module "tls_private_key" {
   algorithm = "RSA"
 }
 
-module "kind_cluster" {
-  source = "github.com/den-vasyliev/tf-kind-cluster"
-}
-
